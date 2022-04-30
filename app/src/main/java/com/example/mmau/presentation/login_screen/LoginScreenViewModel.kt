@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.mmau.domain.model.usermodel.UserLoginDetail
 import com.example.mmau.use_cases.UserLoginUseCase
 import com.example.mmau.util.Resource
+import com.example.mmau.util.UserPreferences
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
@@ -27,6 +28,7 @@ class LoginScreenViewModel @Inject constructor(
             loginEventChannel.send(LoginStateHandler.Loading)
               when(val result = useLoginUseCase.invoke(userLoginDetail)){
                  is Resource.Success<*> -> {
+
                      loginEventChannel.send(LoginStateHandler.Success(result.data))
                  }
                  is Resource.Error<*> -> {
