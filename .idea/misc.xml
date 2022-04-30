@@ -3,11 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/drawable/mmau_3.xml" value="0.1995" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/drawable/rectangle_4.xml" value="0.1995" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/donor_card.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_complet_profile_fragment.xml" value="0.136" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_doner_nav_.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_home_nav_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_homepage_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_login_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_profile_nav_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_register_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/layout/fragment_show_donors_fragement.xml" value="0.25" />
+        <entry key="..\:/Users/MIRAGE/AndroidStudioProjects/MMAU/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

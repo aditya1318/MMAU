@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login_fragment">
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.example.mmau.login_fragment"
+        android:label="fragment_login_fragment"
+        tools:layout="@layout/fragment_login_fragment" />
+    <fragment
+        android:id="@+id/register_fragment"
+        android:name="com.example.mmau.register_fragment"
+        android:label="fragment_register_fragment"
+        tools:layout="@layout/fragment_register_fragment" />
+    <fragment
+        android:id="@+id/home_nav_fragment"
+        android:name="com.example.mmau.home_nav_fragment"
+        android:label="fragment_home_nav_fragment"
+        tools:layout="@layout/fragment_home_nav_fragment" />
+    <fragment
+        android:id="@+id/doner_nav_Fragment"
+        android:name="com.example.mmau.doner_nav_Fragment"
+        android:label="fragment_doner_nav_"
+        tools:layout="@layout/fragment_doner_nav_" />
+    <fragment
+        android:id="@+id/reward_nav_fragment"
+        android:name="com.example.mmau.reward_nav_fragment"
+        android:label="fragment_reward_nav_fragment"
+        tools:layout="@layout/fragment_reward_nav_fragment" />
+    <fragment
+        android:id="@+id/profile_nav_fragment"
+        android:name="com.example.mmau.profile_nav_fragment"
+        android:label="fragment_profile_nav_fragment"
+        tools:layout="@layout/fragment_profile_nav_fragment" />
+    <fragment
+        android:id="@+id/complet_profile_fragment"
+        android:name="com.example.mmau.complet_profile_fragment"
+        android:label="fragment_complet_profile_fragment"
+        tools:layout="@layout/fragment_complet_profile_fragment" />
+    <fragment
+        android:id="@+id/showDonors_fragement"
+        android:name="com.example.mmau.showDonors_fragement"
+        android:label="fragment_show_donors_fragement"
+        tools:layout="@layout/fragment_show_donors_fragement" />
+</navigation>
