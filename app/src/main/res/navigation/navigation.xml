@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/login_fragment"
-        android:name="com.example.mmau.login_fragment"
+        android:name="com.example.mmau.presentation.login_screen.login_fragment"
         android:label="fragment_login_fragment"
         tools:layout="@layout/fragment_login_fragment" />
     <fragment
         android:id="@+id/register_fragment"
-        android:name="com.example.mmau.register_fragment"
+        android:name="com.example.mmau.presentation.register_screen.register_fragment"
         android:label="fragment_register_fragment"
         tools:layout="@layout/fragment_register_fragment" />
     <fragment
